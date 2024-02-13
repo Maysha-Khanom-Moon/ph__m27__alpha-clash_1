@@ -40,11 +40,20 @@
         </section>
     
         <!-- playground -->
-        <section class="play-ground">
-            <div>
+        <section class="play-ground p-12 hidden">
+            <div class="flex flex-col gap-10 justify-center items-center">
                 <!-- screen (daisyui - artboard) -->
                 <div>
-                    <div class="border-[16px] border-[#010313] rounded-2xl artboard artboard-horizontal phone-6 bg-[#ffffffb3] text-[#010313cc]">1024×320</div>
+                    <div class="border-[16px] border-[#010313] rounded-2xl artboard artboard-horizontal phone-6 bg-[#ffffffb3] font-poppins">
+                        <div class="flex flex-col justify-center items-center gap-20">
+                            <div class="text-white text-[18px] font-medium bg-[#2F2941] py-2 px-4 rounded-b-xl">
+                                <p>Don't watch keyboard  while playing...</p>
+                            </div>     
+                            <div class="text-[#010313cc] text-8xl font-semibold">
+                                <p>Y</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- keyboard (daisyui - kbd) -->
@@ -85,8 +94,24 @@
                 </div>
 
                 <!-- life score -->
-                <div>
+                <div class="flex justify-between w-[1024px]">
+                    <!-- button left -->
+                    <div>
+                        <button class="px-8 py-4 text-white font-inter text-[20px] font-medium btn rounded-3xl border-none bg-[#894189]">
+                            Life 
+                            <img src="icons/heart.png" alt="">
+                            <span class="ml-2">1</span>
+                          </button>
+                    </div>
 
+                    <!-- botton right -->
+                    <div>
+                        <button class="px-8 py-4 text-white font-inter text-[20px] font-medium btn rounded-3xl border-none bg-[#894189]">
+                            Score 
+                            <img src="icons/dollar.png" alt="">
+                            <span class="ml-2">1</span>
+                          </button>
+                    </div>
                 </div>
             </div>
             
