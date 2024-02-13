@@ -29,13 +29,13 @@
     </style>
 </head>
 <body>
-    <main class="bg-[#1E1E1E] min-h-screen bg-[url('images/background.png')] bg-no-repeat bg-center">
+    <main class="bg-[#1E1E1E] min-h-screen bg-[url('images/background.png')] bg-no-repeat bg-center flex flex-col justify-center items-center">
         <!-- home screen -->
         <section class="home text-white hidden">
             <div class="flex min-h-screen flex-col justify-center items-center gap-10">
                 <h1 class="text-[120px] font-anton uppercase">Alpha Clash Pro</h1>
                 <p>Unleash Your Keyboard Kun g Fu : Press "Enter" to Play</p>
-                <button class="btn">Play Now</button>
+                <button class="btn text-2xl font-semibold text-[#010313]">Play Now</button>
             </div>
         </section>
     
@@ -118,7 +118,17 @@
         </section>
     
         <section class="score">
-    
+            <div class="flex gap-4 flex-col items-center">
+                <div class="font-poppins text-white font-extrabold text-5xl mb-4">
+                    <h1>Score: <span class="font-semibold">14</span></h1>
+                </div>
+                <div>
+                    <button class="font-poppins text-[#010313] font-semibold text-2xl btn">Play Again</button>
+                </div>
+                <div class="font-poppins text-white font-medium text-xl">
+                    <p>Practice will make you Pro</p>
+                </div>
+            </div>
         </section>
     </main>
 </body>
