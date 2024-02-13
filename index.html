@@ -30,16 +30,66 @@
 </head>
 <body>
     <main class="bg-[#1E1E1E] min-h-screen bg-[url('images/background.png')] bg-no-repeat bg-center">
-        <section class="home text-white">
+        <!-- home screen -->
+        <section class="home text-white hidden">
             <div class="flex min-h-screen flex-col justify-center items-center gap-10">
-                <h1 class="text-8xl font-anton uppercase">Alpha Clash Pro</h1>
+                <h1 class="text-[120px] font-anton uppercase">Alpha Clash Pro</h1>
                 <p>Unleash Your Keyboard Kun g Fu : Press "Enter" to Play</p>
                 <button class="btn">Play Now</button>
             </div>
         </section>
     
+        <!-- playground -->
         <section class="play-ground">
-    
+            <div>
+                <!-- screen (daisyui - artboard) -->
+                <div>
+                    <div class="border-[16px] border-[#010313] rounded-2xl artboard artboard-horizontal phone-6 bg-[#ffffffb3] text-[#010313cc]">1024×320</div>
+                </div>
+
+                <!-- keyboard (daisyui - kbd) -->
+                <div>
+                    <div class="flex justify-center gap-1 my-1 w-full">
+                        <kbd class="kbd">q</kbd>
+                        <kbd class="kbd">w</kbd>
+                        <kbd class="kbd">e</kbd>
+                        <kbd class="kbd">r</kbd>
+                        <kbd class="kbd">t</kbd>
+                        <kbd class="kbd">y</kbd>
+                        <kbd class="kbd">u</kbd>
+                        <kbd class="kbd">i</kbd>
+                        <kbd class="kbd">o</kbd>
+                        <kbd class="kbd">p</kbd>
+                      </div> 
+                      <div class="flex justify-center gap-1 my-1 w-full">
+                        <kbd class="kbd">a</kbd>
+                        <kbd class="kbd">s</kbd>
+                        <kbd class="kbd">d</kbd>
+                        <kbd class="kbd">f</kbd>
+                        <kbd class="kbd">g</kbd>
+                        <kbd class="kbd">h</kbd>
+                        <kbd class="kbd">j</kbd>
+                        <kbd class="kbd">k</kbd>
+                        <kbd class="kbd">l</kbd>
+                      </div> 
+                      <div class="flex justify-center gap-1 my-1 w-full">
+                        <kbd class="kbd">z</kbd>
+                        <kbd class="kbd">x</kbd>
+                        <kbd class="kbd">c</kbd>
+                        <kbd class="kbd">v</kbd>
+                        <kbd class="kbd">b</kbd>
+                        <kbd class="kbd">n</kbd>
+                        <kbd class="kbd">m</kbd>
+                        <kbd class="kbd">/</kbd>
+                      </div>
+                </div>
+
+                <!-- life score -->
+                <div>
+
+                </div>
+            </div>
+            
         </section>
     
         <section class="score">
