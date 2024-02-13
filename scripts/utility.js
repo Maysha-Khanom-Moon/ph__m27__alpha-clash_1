@@ -20,3 +20,10 @@ function getRandomLetter() {
 
     return letters[randomIndex];
 }
+
+
+// add bg-color
+function setBG(char) {
+    const key = document.getElementById(char);
+    key.classList.add('bg-[#FFA500]')
+}
